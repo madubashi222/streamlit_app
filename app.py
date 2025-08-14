@@ -239,7 +239,7 @@ if section == "Overview":
     st.markdown("""
     <div style="text-align: center; padding: 1rem 0;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/RMS_Titanic_3.jpg" width="250" style="border-radius: 5px;" />
-        <h1 style="color: #01579b; margin-top: 0.5rem;">Titanic Survival Prediction</h1>
+        <h1 style="color: #01579b; margin-top: 0.5rem;">Passenger Survival Prediction in Taitanic</h1>
         <p style="color: #0277bd; font-size: 1.1rem;">Explore the passenger data, visualize survival trends, and try out ML-powered predictions — all aboard the Titanic.</p>
     </div>
 """, unsafe_allow_html=True)
