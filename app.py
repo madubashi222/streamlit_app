@@ -244,14 +244,7 @@ if section == "Overview":
     </div>
 """, unsafe_allow_html=True)
 
-    st.code(
-        "app.py\nrequirements.txt\nmodel.pkl (auto-created after training)\nartifacts/metrics.json (auto-created)\ndata/dataset.csv (your Titanic CSV)\nnotebooks/model_training.ipynb",
-        language="bash"
-    )
-    if df is None:
-        st.warning("Dataset not loaded yet. Go to the sidebar ➜ upload a CSV or add one to `data/`.")
-    else:
-        st.success("Dataset loaded. Use the other sections to explore and model.")
+   
 
 elif section == "Explore Data":
     st.header("Dataset Overview")
