@@ -387,5 +387,4 @@ elif section == "Performance":
                 rep_df = pd.DataFrame(rep).T
                 st.dataframe(rep_df, use_container_width=True)
 
-# Footer
-st.caption("Built with ❤️ using Streamlit.")
+
