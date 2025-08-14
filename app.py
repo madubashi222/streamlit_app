@@ -215,7 +215,7 @@ if df is not None:
 # Pages
 # ------------------------------
 if section == "Overview":
-    st.title("Titanic Survival Prediction — Streamlit App")
+    st.title("Model Traning with Titanic Dataset")
     st.write("Interactive EDA, model training, prediction, and evaluation.")
    # 🌊 Custom sea-style background and Titanic header
     st.markdown("""
